@@ -1,0 +1,10 @@
+
+.app {
+   width: 400px;
+   margin: 100px auto;
+   border: 1px solid;
+}
+.wrapper{
+  display: grid;
+  grid-template-columns: repeat(2, minmax(auto, 1fr));
+}
